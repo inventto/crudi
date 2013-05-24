@@ -8,11 +8,10 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 4.0.0.beta1'
-  gem 'coffee-rails', '~> 4.0.0.beta1'
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', platforms: :ruby
+  gem 'sass-rails',   '~> 4.0.0.beta1'
+  gem 'coffee-rails', '~> 4.0.0.beta1'
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -35,6 +34,4 @@ gem 'jbuilder', '~> 1.0.1'
 
 gem "devise"
 gem "jquery-rails"
-gem "omniauth", "~> 0.2.0"
-gem "rails_admin", git: "git://github.com/sferik/rails_admin.git"
 gem "rspec-rails", ">= 2.0.1", group: [:development, :test]
